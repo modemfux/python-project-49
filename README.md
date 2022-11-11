@@ -4,6 +4,8 @@
 ### CodeClimate Maintainability
 [![Maintainability](https://api.codeclimate.com/v1/badges/354794dcad51932d684a/maintainability)](https://codeclimate.com/github/modemfux/python-project-49/maintainability)
 
-## Asiinema for brain-even game
+#### Asciinema for brain-even game
 https://asciinema.org/a/7ssUcxHbBu51z33pC6PwOrnfY
 
+#### Asciinema for brain-calc game
+https://asciinema.org/a/4RJdVHSgEqtoxvVUhTPCaUPkv
