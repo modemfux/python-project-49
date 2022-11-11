@@ -1,7 +1,7 @@
 import random
 
 
-def progression_logic(start, step, length):
+def prog_logic(start, step, length):
     prog_list = []
     i = 0
     member = start
