@@ -9,3 +9,6 @@ https://asciinema.org/a/7ssUcxHbBu51z33pC6PwOrnfY
 
 #### Asciinema for brain-calc game
 https://asciinema.org/a/4RJdVHSgEqtoxvVUhTPCaUPkv
+
+#### Asciinema for brain-gcd game
+https://asciinema.org/a/SdLbAQqp7ye5XmJr4AvOikCEa
