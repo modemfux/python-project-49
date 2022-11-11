@@ -3,7 +3,6 @@ from brain_games.games.brain_calc_logic import calc_logic
 from brain_games.games.brain_even_logic import even_logic
 
 
-
 def main_game(game, name):
     i = 0
     while i < 3:
