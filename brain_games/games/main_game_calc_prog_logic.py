@@ -1,7 +1,6 @@
 import random
-from brain_games.games.brain_even_logic import even_logic
-from brain_games.games.brain_gcd_logic import gcd_logic
-from brain_games.games.brain_prime_logic import prime_logic
+from brain_games.games.brain_calc_logic import calc_logic
+from brain_games.games.brain_progression_logic import prog_logic
 
 
 def main_game(game, name):
@@ -9,12 +8,12 @@ def main_game(game, name):
     while i < 3:
         num1 = random.randint(1, 100)
         num2 = random.randint(1, 100)
-        if game == 'even':
-            game_question, correct_answer = even_logic(num1)
-        elif game == 'gcd':
-            game_question, correct_answer = gcd_logic(num1, num2)
-        elif game == 'prime':
-            game_question, correct_answer = prime_logic(num1)
+        operator = random.choice(['+', '-', '*'])
+        if game == 'calc':
+            game_question, correct_answer = calc_logic(num1, num2, operator)
+        elif game == 'progression':
+            length = random.randint(5, 15)
+            game_question, correct_answer = prog_logic(num1, num2, length)
         print(f'Question: {game_question}')
         answer = input('Your answer: ')
         if answer == correct_answer:
