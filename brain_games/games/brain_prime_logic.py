@@ -2,7 +2,7 @@ import math
 
 
 def is_prime(num):
-    num == abs(num)
+    num = abs(num)
     if num == 0 or num == 1:
         return False
     i = 2
