@@ -3,13 +3,11 @@ import math
 
 def is_prime(num):
     num = abs(num)
-    if num == 0 or num == 1:
-        return False
-    i = 2
-    while i <= math.sqrt(num):
+    for i in range(2, int(math.sqrt(num)) + 1):
         if num % i == 0:
             return False
-        i += 1
+    if abs(num) in [0, 1]:
+        return False
     else:
         return True
 
